@@ -63,9 +63,9 @@ const isGraduated = (scholar) => {
                         <!-- <option value="government scholarship">
                             Government Scholarship
                         </option> -->
-                        <option value="private scholarship">
+                        <!-- <option value="private scholarship">
                             Private Scholarship
-                        </option>
+                        </option> -->
                     </select>
                 </div>
 

@@ -47,7 +47,7 @@ const greeting = computed(() => {
                 <div
                     class="bg-gradient-to-r from-indigo-600 to-blue-600 font-[sans-serif] p-6 verflow-hidden shadow-sm sm:rounded-lg"
                 >
-                    <h2 class="text-white sm:text-xl text-base font-bold">
+                    <h2 class="text-base font-bold text-white sm:text-xl">
                         <span v-if="timeOfDay === 'morning'">
                             Good Morning,
                         </span>
@@ -61,5 +61,8 @@ const greeting = computed(() => {
                 </div>
             </div>
         </div>
+
+
+
     </AuthenticatedLayout>
 </template>

@@ -161,12 +161,12 @@ const isGraduated = (scholar) => {
                                     >More Details</span
                                 >
                             </Link>
-                            <span
+                            <!-- <span
                                 v-if="isGraduated(rejectedApplicant)"
                                 class="px-3 ml-2 py-1.5 font-medium text-xs inline-flex items-center justify-center border border-transparent rounded leading-5 shadow-sm transition duration-150 ease-in-out bg-green-700 hover:bg-green-600 text-white"
                             >
                                 Graduated
-                            </span>
+                            </span> -->
                         </td>
                     </tr>
                 </tbody>

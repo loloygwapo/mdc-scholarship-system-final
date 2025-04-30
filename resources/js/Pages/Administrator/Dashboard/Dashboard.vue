@@ -169,7 +169,7 @@ const greeting = computed(() => {
                     </dd>
                 </div>
 
-                <div
+                <!-- <div
                     class="relative px-4 pt-5 pb-12 overflow-hidden bg-white rounded-lg shadow sm:pt-6 sm:px-6"
                 >
                     <dt>
@@ -192,7 +192,7 @@ const greeting = computed(() => {
                         <p
                             class="ml-16 text-sm font-medium text-gray-500 truncate"
                         >
-                            Total of Applicants
+                            Total of Announcement
                         </p>
                     </dt>
                     <dd class="flex items-baseline pb-6 ml-16 sm:pb-7">
@@ -214,7 +214,7 @@ const greeting = computed(() => {
                             </div>
                         </div>
                     </dd>
-                </div>
+                </div> -->
 
                 <div
                     class="relative px-4 pt-5 pb-12 overflow-hidden bg-white rounded-lg shadow sm:pt-6 sm:px-6"

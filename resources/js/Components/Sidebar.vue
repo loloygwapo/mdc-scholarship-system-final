@@ -158,7 +158,7 @@ import { Link } from "@inertiajs/vue3";
                         </svg>
                         Scholars
                     </NavLink>
-                    <NavLink
+                    <!-- <NavLink
                         v-if="$page.props.role.admin"
                         :href="route('total-of-applicants')"
                         :active="route().current('total-of-applicants')"
@@ -178,7 +178,7 @@ import { Link } from "@inertiajs/vue3";
                             />
                         </svg>
                         Applicants
-                    </NavLink>
+                    </NavLink> -->
                     <NavLink
                         v-if="$page.props.role.admin"
                         :href="route('total-of-rejected-applicants')"
@@ -267,7 +267,7 @@ import { Link } from "@inertiajs/vue3";
 
                         Scholarships
                     </NavLink>
-                    <NavLink
+                    <!-- <NavLink
                         v-if="$page.props.role.representative"
                         :href="route('applicants.index')"
                         :active="route().current('applicants.*')"
@@ -287,8 +287,8 @@ import { Link } from "@inertiajs/vue3";
                             />
                         </svg>
                         Applicants
-                    </NavLink>
-                    <NavLink
+                    </NavLink> -->
+                    <!-- <NavLink
                         v-if="$page.props.role.representative"
                         :href="route('scholars.index')"
                         :active="route().current('scholars.*')"
@@ -309,7 +309,7 @@ import { Link } from "@inertiajs/vue3";
                         </svg>
 
                         Scholars
-                    </NavLink>
+                    </NavLink> -->
                     <NavLink
                         v-if="$page.props.role.representative"
                         :href="route('academic-scholars.index')"
@@ -331,7 +331,7 @@ import { Link } from "@inertiajs/vue3";
                         </svg>
                         Academic Scholars
                     </NavLink>
-                    <NavLink
+                    <!-- <NavLink
                         v-if="$page.props.role.representative"
                         :href="route('private-scholars.index')"
                         :active="route().current('private-scholars.*')"
@@ -373,7 +373,7 @@ import { Link } from "@inertiajs/vue3";
                         </svg>
 
                         Rejected Applicants
-                    </NavLink>
+                    </NavLink> -->
                     <NavLink
                         v-if="$page.props.role.user"
                         :href="route('applied-scholarships.index')"

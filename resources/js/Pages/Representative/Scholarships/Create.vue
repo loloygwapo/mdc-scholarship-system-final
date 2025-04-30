@@ -53,7 +53,7 @@ function submit() {
                             "New Scholarship Available!",
                             {
                                 body: post.scholarshipName,
-                                icon: "https://upload.wikimedia.org/wikipedia/en/7/75/Pangasinan_State_University_logo.png",
+                                icon: "",
                             }
                         );
                         notification.onclick = () => {
@@ -113,12 +113,12 @@ const addPost = (scholarshipName, details) => {
                                     <option value="academic scholarship">
                                         Academic Scholarship
                                     </option>
-                                    <option value="government scholarship">
+                                    <!-- <option value="government scholarship">
                                         Government Scholarship
                                     </option>
                                     <option value="private scholarship">
                                         Private Scholarship
-                                    </option>
+                                    </option> -->
                                 </select>
                             </div>
                         </div>

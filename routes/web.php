@@ -65,7 +65,9 @@ Route::group(['middleware' => ['auth', 'role:administrator', 'verified']], funct
     ->name('register.representative');
     Route::post('register-representative-account', [RegisteredRepresentativeController::class, 'store']);
     Route::resource('school-year', SchoolYearController::class);
-    Route::get('total-of-scholarships', [AdminController::class, 'scholarships'])->name('total-of-scholarships');
+    Route::get('/total-of-scholarships', [ScholarshipController::class, 'index'])->name('total-of-scholarships');
+
+
     Route::get('total-of-scholarships/{scholarship}', [AdminController::class, 'scholarshipShow'])->name('total-of-scholarships.show');
     Route::get('total-of-scholars', [AdminController::class, 'scholars'])->name('total-of-scholars');
     Route::get('total-of-scholars/{id}', [AdminController::class, 'scholarShow'])->name('total-of-scholars.show');
